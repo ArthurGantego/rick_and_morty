@@ -1,0 +1,43 @@
+.container {
+    border: 2px solid crimson;
+    border-radius: 5px;
+  margin: 10px;
+  width: 150px;
+  background-color: rgba(29, 29, 31, 0.589);
+  padding: 5px;
+  font-family: "Comic Sans MS", cursive;
+  box-shadow: 0 0 10px black;
+
+  
+}
+
+.image {
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.image:hover{
+    transform: scale(1.2);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+.buttonContainer button {
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.buttonContainer button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.dataContainer{
+    text-align: center;
+}
